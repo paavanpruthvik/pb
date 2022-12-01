@@ -1,0 +1,51 @@
+header {
+  background-color: black;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: 0.5s;
+
+}
+
+.head-logo {
+  float: left;
+  width: 35px;
+}
+
+.logo {
+  float: left;
+  padding: 0px;
+}
+
+nav {
+  max-width: 1140px;
+  height: 55px;
+  margin: auto;
+
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  color: #8490ff;
+}

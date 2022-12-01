@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(42, 42, 46, 1);
+
+}
+
+main {
+    margin: auto;
+    max-width: 1140px;
+
+}
+
+/* header  */
+
+.my-intro {
+    background-color: #8490ff;
+    padding: 30px;
+}
+
+.my-cointainer {
+    margin: auto;
+    max-width: 900px;
+}
+
+.my-text {
+    color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+    padding: 3px;
+
+}
+
+.extr {
+    width: 100%;
+}
+
+/*skills*/
+.Skills-intro {
+    background-color: #8490ff;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 40px 0px;
+
+}
+
+.typing-skills {
+    width: 120px;
+    overflow: hidden;
+    font-size: 2.7em;
+}
+
+.Skills-cointainer {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px 50px 10px;
+
+}
+
+.headding {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #8490ff;
+    font-size: 35px;
+}
+
+.skillist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.skill-box {
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    min-width: 140px;
+    min-height: 30px;
+    padding: 5px;
+    color: #c4c4c4;
+    background-color: #38383d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+.boxes {
+    padding: 20px;
+    transform: translateY(+50px);
+    overflow: clip;
+
+}
+
+.up {
+    transform: translateY(0);
+    transition: transform ease 1s;
+
+}
+
+/*  •   */
+/*Education*/
+
+.education-intro {
+    background-color: #8490ff;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 40px 0px;
+
+}
+
+.typing-education {
+    width: 210px;
+    overflow: hidden;
+    font-size: 2.7em;
+    padding: 0;
+
+}
+
+.edu-cointainer {
+    padding: 10px;
+    transform: translateY(+50px);
+    overflow: hidden;
+}
+
+.up {
+    transform: translateY(0);
+    transition: transform ease 1s;
+}
+
+.edu-main {
+    padding: 15px 15px 70px 15px;
+}
+
+.edu-card {
+    margin: auto;
+    max-width: 390px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #38383d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edu-text {
+    text-align: left;
+    padding: 10px;
+}
+
+.type-head {
+    color: #8490ff;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.edu-card,
+h2 {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 1px;
+}
+
+.edu-card,
+p {
+    color: #c4c4c4;
+    font-size: 13px;
+    padding: 1px;
+}
+
+.edu-card,
+h3 {
+    color: #c4c4c4;
+    font-size: 18px;
+    padding: 1px;
+}
+
+/* Project */
+.Project-intro {
+    background-color: #8490ff;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 40px 0px;
+
+}
+
+.typing-Project {
+    width: 170px;
+    overflow: hidden;
+    font-size: 2.7em;
+    padding: 0;
+
+}
+
+.Project-cointainer {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 10px 50px 10px;
+
+}
+
+.headding {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #8490ff;
+    font-size: 35px;
+}
+
+.Projectlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Project-box {
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    min-width: 180px;
+    min-height: 30px;
+    padding: 5px;
+    color: #c4c4c4;
+    background-color: #38383d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 3px;
+
+}
+
+.boxess {
+    padding: 20px;
+    transform: translateY(+50px);
+    overflow: clip;
+
+}
+
+.up {
+    transform: translateY(0);
+    transition: transform ease 1s;
+
+}
+
+.sourcecode {
+    width: 175px;
+    float: right;
+}
+
+.source {
+
+    text-decoration: none;
+}
+
+.source1 {
+
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.source1:hover {
+    color: #8490ff;
+    text-decoration: underline;
+}
+
+
+/*Certificate */
+.cer-cointainer {
+    padding: 10px;
+    transform: translateY(+50px);
+    overflow: hidden;
+}
+
+.up {
+    transform: translateY(0);
+    transition: transform ease 1s;
+}
+
+.cer-main {
+    padding: 15px 15px 70px 15px;
+}
+
+.cer-card {
+    margin: auto;
+    max-width: 220px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #38383d;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.cer-text {
+    text-align: left;
+    padding: 10px;
+}
+
+.cer-card,
+h2 {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.cer-card,
+h3 {
+    color: #c4c4c4;
+    font-size: 16px;
+}

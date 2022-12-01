@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-PaavanB</title>
+    <script src="https://kit.fontawesome.com/3117a765a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <script>
+        function explore() {
+            window.open('about.html', '_self')
+        }
+        function resume() {
+            window.open('https://drive.google.com/file/d/18AdK5iDeNnXNCXic-5y3PUQQoUqZzGR_/view?usp=sharing');
+        }
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li class="logo"><a href="index.html"><img class="head-logo" src="logo.png" alt=""></a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="home-container">
+            <div class="home-info">
+                <div class="hello">
+                    <p>'Hello World!'</p>
+                </div>
+                <div class="home-text">
+                    <div class="me">
+                        <p>I am</p>
+                    </div>
+                    <div class="myname">
+                        <p>Paavan B</p>
+                    </div>
+                </div>
+                <div class="description">
+                    <!-- update it -->
+                    <p></p>
+                </div>
+            </div>
+            <div class="resume-container">
+                <p class="txt-resume">click here to view my resume</p>
+                <input type="button" class="resumebutton" value="My Resume" onclick="resume()">
+            </div><br><br><br><br>
+        </div>
+        <div class="my-image">
+            <img class="imageme" src="paavan5.jpg" alt="" width="400">
+        </div>
+    </main>
+
+    <div class="more-cointainer">
+        <div class="more-main">
+            <div class="explore-container">
+                <p class="txt-explore">Explore more About me</p>
+                <input type="button" class="explorebutton" value="Explore!" onclick="explore()">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+
+            <div class="foot-box">
+                <div class="foot-text">
+                    <h4>Let us be Social</h4>
+                </div>
+                <div class="icon-main">
+                    <a class="foot-icon" href="https://www.instagram.com/paavan_padmashali/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a class="foot-icon" href="https://www.facebook.com/people/Paavan-Pruthvik/100006198798012/"
+                        target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a class="foot-icon" href="https://github.com/paavanpruthvik" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a class="foot-icon" href="https://www.linkedin.com/in/paavanb02" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a class="foot-icon" href="https://twitter.com/paavan_pruthvik" target="_blank"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="foot-box">
+                <div class="contact">
+                    <div class="foot-text">
+                        <h4>Contact me</h4>
+                    </div>
+                    <p><a class="message" href="contact.html">click hear to message me !!</a></p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>

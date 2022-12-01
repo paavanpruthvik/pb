@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(42, 42, 46, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  margin: auto;
+  max-width: 1140px;
+  background-color: rgb(42, 42, 46, 1);
+}
+
+/* main */
+.cont-intro {
+  background-color: #8490ff;
+  color: white;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 40px 0px;
+
+}
+
+.cont-typing {
+  width: 280px;
+  overflow: hidden;
+  font-size: 3em;
+}
+
+.contact-cointainer {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation-name: identi;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes identi {
+  from {
+    padding: 30px 0px;
+    opacity: 0;
+  }
+
+  to {
+    padding: 5px 0px;
+    opacity: 1;
+  }
+}
+
+.cont-add {
+  margin: auto 0;
+}
+
+.cont-box {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.cont-logo {
+  font-size: 35px;
+  padding: 10px;
+  color: #8490ff;
+}
+
+.cont-text {
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+}
+
+.con-cointainer {
+  padding: 10px;
+}
+
+.cont-social {
+  padding: 20px;
+}
+
+.cont-card {
+  margin: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #38383d;
+  color: #c4c4c4;
+  border-radius: 2px;
+}
+
+.cont-image {
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.imgggg1 {
+  padding: 8px 8px 8px 11px;
+}
+
+.con-text,
+a {
+  text-decoration: none;
+  color: #8a94f1;
+}
+
+.con-text,
+a:hover {
+  color: #4e5dea;
+}
+
+.cont-card:hover {
+  box-shadow: 0 16px 26px 0 rgba(0, 0, 0, 0.2);
+}
