@@ -25,6 +25,10 @@
     color: white;
 }
 
+.icon-main{
+    padding: 0 10px;
+}
+
 .foot-mail {
     width: 200px;
     height: 25px;
