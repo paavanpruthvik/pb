@@ -189,7 +189,7 @@ main {
 
 @media only screen and (max-width: 420px) {
   main {
-    background: center url(paavan5.jpg);
+    background: center url(./paavan5.jpg);
     background-size: cover;
     height: 500px;
   }
