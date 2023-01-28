@@ -1,0 +1,193 @@
+nav {
+  background: #111;
+  box-shadow: 0 26px 36px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a {
+  color: #8490ff;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background: #8490ff;
+}
+
+nav .menu-btn i {
+  color: #8490ff;
+}
+
+@media (max-width: 920px) {
+
+  nav ul {
+    background: #111;
+  }
+
+  #click:hover {
+    color: #c8d8e4;
+  }
+
+}
+
+.ddd a {
+  background-color: #8490ff;
+  color: #ffffff;
+}
+
+.ddd a:hover {
+  color: #111;
+  background-color: #c8d8e4;
+}
+
+body {
+  background-color: rgb(42, 42, 46, 1);
+}
+
+main {
+  margin: auto;
+  background-color: rgb(42, 42, 46, 1);
+}
+
+.my-intro {
+  background-color: #8490ff;
+  padding: 30px;
+}
+
+.my-text {
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  padding: 3px;
+}
+
+.Skills-intro {
+  background-color: #8490ff;
+  color: #ffffff;
+}
+
+.boxes h2 {
+  color: #8490ff;
+}
+
+.skill-box {
+  background-color: #38383d;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill-box p {
+  color: #c4c4c4;
+}
+
+.education-intro {
+  background-color: #8490ff;
+  color: white;
+}
+
+.edu-card {
+  background-color: #38383d;
+  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edu-text .type-head {
+  color: #8490ff;
+  font-size: 14px;
+  padding: 2px;
+}
+
+.edu-card h2 {
+  color: #ffffff;
+  font-size: 22px;
+  padding: 1px;
+}
+
+.edu-card p {
+  color: #c4c4c4;
+  font-size: 12px;
+  padding: 1px;
+}
+
+.edu-text h3 {
+  color: #c4c4c4;
+  font-size: 15px;
+  padding: 3px 1px;
+}
+
+.Project-intro {
+  background-color: #8490ff;
+  color: white;
+}
+
+.boxess .headding {
+  color: #8490ff;
+}
+
+.Project-box {
+  background-color: #38383d;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Project-box p {
+  color: #c4c4c4;
+  font-size: 13.5px;
+}
+
+.source1 {
+  color: #ffffff;
+  font-size: 10px;
+}
+
+.source1:hover {
+  color: #8490ff;
+  text-decoration: underline;
+}
+
+.cer-cointainer .cer-card {
+  background-color: #38383d;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cer-cointainer .cer-card,
+h2 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.cer-cointainer .cer-card,
+h3 {
+  color: #c4c4c4;
+  font-size: 16px;
+}
+
+.foot {
+  background-color: black;
+}
+
+.foot-text {
+  font-size: 27px;
+  color: white;
+}
+
+.foot-mail {
+  width: 200px;
+  height: 25px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.foot-icon {
+  font-size: 25px;
+  padding: 4px;
+  background-color: black;
+}
+
+.fa-brands {
+  color: white;
+}
+
+.message {
+  color: #8490ff;
+}
+
+.message:hover {
+  color: #2f42ec;
+}

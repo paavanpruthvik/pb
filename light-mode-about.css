@@ -1,0 +1,185 @@
+nav {
+    background: #ffffff;
+    box-shadow: 0 16px 26px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a {
+    color: #38383d;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background: #8490ff;
+}
+
+nav .menu-btn i {
+    color: #8490ff;
+}
+
+@media (max-width: 920px) {
+
+    nav ul {
+        background: #e3e1e1;
+    }
+
+    #click:hover {
+        color: #38383d;
+    }
+
+}
+
+.ddd a {
+    background-color: #8490ff;
+    color: #ffffff;
+}
+
+.ddd a:hover {
+    color: #111;
+    background-color: #c8d8e4;
+}
+
+main {
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.my-intro {
+    background-color: #8490ff;
+    padding: 30px;
+}
+
+.my-text {
+    color: #ffffff;
+    text-align: left;
+    font-size: 16px;
+    padding: 3px;
+}
+
+.Skills-intro {
+    background-color: #8490ff;
+    color: #ffffff;
+}
+
+.boxes h2 {
+    color: #38383d;
+}
+
+.skill-box {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.skill-box p {
+    color: #38383d;
+}
+/*  •   */
+.education-intro {
+    background-color: #8490ff;
+    color: white;
+}
+
+.edu-card {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.edu-text .type-head {
+    color: #8490ff;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.edu-card p {
+    color: #38383d;
+    font-size: 12px;
+    padding: 1px;
+}
+
+.edu-text h3 {
+    color: #38383d;
+    font-size: 15px;
+    padding: 3px 1px;
+}
+
+.Project-intro {
+    background-color: #8490ff;
+    color: white;
+}
+
+
+.boxess .headding {
+    color: #38383d;
+}
+
+.Project-box {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.Project-box p {
+    color: #38383d;
+    font-size: 13.5px;
+}
+
+.source1 {
+    color: #38383d;
+    font-size: 10px;
+}
+
+.source1:hover {
+    color: #8490ff;
+    text-decoration: underline;
+}
+
+.cer-cointainer .cer-card {
+    background-color: #ffffff;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cer-cointainer .cer-card,
+h2 {
+    color: #38383d;
+    font-size: 22px;
+}
+
+.cer-cointainer .cer-card,
+h3 {
+    color: #38383d;
+    font-size: 16px;
+}
+
+.foot {
+    background-color: #c8cacc;
+}
+
+.foot-text {
+    font-size: 27px;
+    color: #111;
+}
+
+.foot-mail {
+    width: 200px;
+    height: 25px;
+    background-color: #c8cacc;
+    color: white;
+    border: none;
+}
+
+.foot-icon {
+    font-size: 25px;
+    padding: 4px;
+    background-color: #c8cacc;
+}
+
+.fa-brands {
+    color: #111;
+}
+
+.message {
+    color: #2f42ec;
+}
+
+.message:hover {
+    color: #001aff;
+}

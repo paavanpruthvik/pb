@@ -1,0 +1,110 @@
+nav {
+  background: #ffffff;
+  box-shadow: 0 16px 26px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a {
+  color: #38383d;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+  background: #8490ff;
+}
+
+nav .menu-btn i {
+  color: #8490ff;
+}
+
+@media (max-width: 920px) {
+
+  nav ul {
+    background: #e3e1e1;
+  }
+
+  #click:hover {
+    color: #38383d;
+  }
+
+}
+
+.ddd a {
+  background-color: #8490ff;
+  color: #ffffff;
+}
+
+.ddd a:hover {
+  color: #111;
+  background-color: #c8d8e4;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+.cont-intro {
+  background-color: #8490ff;
+  color: #ffffff;
+}
+
+.cont-logo {
+  color: #38383d;
+}
+
+.cont-text {
+  color: #38383d;
+}
+
+.cont-card {
+  background-color: #ffffff;
+  border: .1px solid #c4c4c4;
+}
+
+.con-text,
+a {
+  text-decoration: none;
+  color: #8a94f1;
+}
+
+.con-text,
+a:hover {
+  color: #4e5dea;
+}
+
+.cont-card:hover {
+  box-shadow: 0 16px 26px 0 rgba(0, 0, 0, 0.2);
+}
+
+.foot {
+  background-color: #e1e1e2;
+}
+
+.foot-text {
+  font-size: 27px;
+  color: #111;
+}
+
+.foot-mail {
+  background-color: #e1e1e2;
+  color: white;
+}
+
+.mail-butt {
+  background-color: #8490ff;
+}
+
+.mail-butt:hover {
+  background-color: #2f42ec;
+}
+
+.foot-icon {
+  background-color: #e1e1e2;
+}
+
+.fa-brands {
+  color: #111;
+}
