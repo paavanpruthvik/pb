@@ -31,6 +31,7 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  z-index: 2;
 }
 
 nav ul li {
@@ -74,6 +75,7 @@ input[type="checkbox"] {
     text-align: center;
     display: block;
     transition: all 0.3s ease;
+    z-index: 2;
   }
 
   #click:checked~ul {
